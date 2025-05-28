@@ -25,6 +25,7 @@ export default defineConfig([
       'react/react-in-jsx-scope': 'off', // desnecessário com React 17+
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
+      'no-empty': ['error', { 'allowEmptyCatch': true}]
     },
   },
 ]);
