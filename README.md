@@ -2,7 +2,7 @@
 
 Desenvolvi este projeto web com o objetivo de estudar alguns conceitos do React e aprimorar meus conhecimentos em CSS
 
-O projeto é um site que serve para o usuario organizar os contatos, nele voce pode salvar, editar e deletar um contato. Onde cada contato vai ter um nome, email, telefone e categoria dele, onde na parte de categoria o usuario pode escolher entre Comunidade DevBoost, Faculdade, Instagram, Linkedin, Twitter.
+O projeto consiste em um site que permite ao usuário organizar seus contatos. Nele, é possível salvar, editar e deletar um contato. Cada contato possui um nome, e-mail, telefone e uma categoria, que pode ser escolhida entre: Comunidade DevBoost, Faculdade, Instagram, LinkedIn e Twitter.
 
 ## Tecnologias
 
