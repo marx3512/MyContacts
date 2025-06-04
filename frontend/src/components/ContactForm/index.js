@@ -25,7 +25,7 @@ const ContactForm = forwardRef(({ buttonLabel, onSubmit }, ref) => {
 
   const { setError, removeError, getErrorMessageByFieldName, errors } = useErrors();
 
-  const isFormValid = (name && errors.length == 0);
+  const isFormValid = (name && errors.length === 0);
 
   useImperativeHandle(ref, () => ({
     setFieldsValues: (contact) => {

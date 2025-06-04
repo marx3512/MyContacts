@@ -4,7 +4,7 @@ export default function useErrors() {
   const [errors, setErrors] = useState([]);
 
   function setError({ field, message }) {
-    const errorAlreadyExists = errors.find((error) => error.field == field);
+    const errorAlreadyExists = errors.find((error) => error.field === field);
 
     if (errorAlreadyExists) {
       return;
@@ -18,12 +18,12 @@ export default function useErrors() {
 
   function removeError(fieldName) {
     setErrors((prevState) => prevState.filter(
-      (error) => error.field != fieldName,
+      (error) => error.field !== fieldName,
     ));
   }
 
   function getErrorMessageByFieldName(fieldName) {
-    return errors.find((error) => error.field == fieldName)?.message;
+    return errors.find((error) => error.field === fieldName)?.message;
   }
 
   return { setError, removeError, getErrorMessageByFieldName, errors };

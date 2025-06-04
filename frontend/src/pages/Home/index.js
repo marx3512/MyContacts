@@ -92,7 +92,7 @@ export default function Home() {
       await ContactsService.deleteContact(contactBeingDeleted.id);
 
       setContacts((prevState) => prevState.filter(
-        (contact) => contact.id != contactBeingDeleted.id,
+        (contact) => contact.id !== contactBeingDeleted.id,
       ));
 
       handleCloseDeleteModal();

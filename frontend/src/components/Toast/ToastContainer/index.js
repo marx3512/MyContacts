@@ -26,7 +26,7 @@ export default function ToastContainer() {
 
   const handleRemoveMessage = useCallback((id) => {
     setMessages((prevState) => prevState.filter(
-      (message) => message.id != id,
+      (message) => message.id !== id,
     ));
   }, []);
 

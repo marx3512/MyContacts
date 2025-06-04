@@ -29,7 +29,7 @@ export default class EventManager {
     }
 
     const filteredListeners = listeners.filter(
-      (listener) => listener != listenerToRemove,
+      (listener) => listener !== listenerToRemove,
     );
 
     this.listeners.set(event, filteredListeners);
