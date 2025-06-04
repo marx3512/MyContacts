@@ -11,4 +11,7 @@ No projeto eu acabei utilizando:
 🔸 React <br>
 🔸 Java Script <br>
 🔸 HTML <br>
-🔸 CSS
+🔸 CSS <br>
+🔸 Postgres SQL
+
+Tambem é possivel executar o comando `docker-compose up --build` para executar o projeto.
